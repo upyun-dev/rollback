@@ -1,45 +1,7 @@
 ---
 galaxy_info:
   author: abbshr
-  description: an revision of ansistrano rollback
-  company: Ansistrano
+  description: UPYUN Node.js application version control utility (rollback)
+  company: UPYUN
   license: MIT
-  min_ansible_version: 1.6
-  platforms:
-  - name: EL
-    versions:
-    - all
-  - name: GenericUNIX
-    versions:
-    - all
-  - name: Fedora
-    versions:
-    - all
-  - name: opensuse
-    versions:
-    - all
-  - name: Amazon
-    versions:
-    - all
-  - name: GenericBSD
-    versions:
-    - all
-  - name: FreeBSD
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
-  - name: SLES
-    versions:
-    - all
-  - name: GenericLinux
-    versions:
-    - all
-  - name: Debian
-    versions:
-    - all
-  categories:
-  - cloud
-  - web
-dependencies: []
+  min_ansible_version: 2.0

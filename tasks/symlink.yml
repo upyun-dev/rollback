@@ -1,5 +1,5 @@
 ---
-- name: ANSISTRANO | Change web softlink from current release to previous one
+- name: UPYUN-DEV-ROLLBACK | 重新链接 current 到前一个版本
   file:
     state: link
     path: "{{ ansistrano_deploy_to }}/{{ ansistrano_current_dir }}"
