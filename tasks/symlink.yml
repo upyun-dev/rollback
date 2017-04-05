@@ -2,5 +2,5 @@
 - name: UPYUN-DEV-ROLLBACK | 重新链接 current 到前一个版本
   file:
     state: link
-    path: "{{ updeployment_deploy_to }}/{{ updeployment_current_dir }}"
-    src: "./{{ updeployment_version_dir }}/{{ updeployment_previous_release_version.stdout }}"
+    path: "{{ rollback_from }}/{{ rollback_current_dir }}"
+    src: "./{{ rollback_version_dir }}/{{ rollback_previous_release_version.stdout }}"

@@ -15,14 +15,14 @@ for internal used.
 
 ```yml
 # Path where the code must be deployed to
-updeployment_deploy_to: "/var/www/my-app"
+rollback_from: "/var/www/my-app"
 
 # Folder name for the releases
-updeployment_version_dir: "releases"
+rollback_version_dir: "releases"
 
 # Softlink name for the current release
-updeployment_current_dir: "current"
+rollback_current_dir: "current"
 
 # Remove rolled back release?
-updeployment_remove_rolled_back: yes
+remove_rolled_back: yes
 ```

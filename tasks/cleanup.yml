@@ -2,5 +2,5 @@
 - name: UPYUN-DEV-ROLLBACK | 清理掉目前使用的版本
   file:
     state: absent
-    path: "{{ updeployment_releases_path.stdout }}/{{ updeployment_current_release_version.stdout }}"
-  when: updeployment_remove_rolled_back
+    path: "{{ rollback_releases_path.stdout }}/{{ rollback_current_release_version.stdout }}"
+  when: remove_rolled_back

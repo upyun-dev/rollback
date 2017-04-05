@@ -1,6 +1,6 @@
 - name: Do a deploy to be able to rollback
   hosts: all
   vars:
-    updeployment_deploy_to: "/tmp/my-app.com"
+    rollback_from: "/tmp/my-app.com"
   roles:
-    - { role: carlosbuenosvinos.updeployment-deploy }
+    - { role: carlosbuenosvinos.rollback-deploy }
