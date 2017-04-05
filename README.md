@@ -24,5 +24,5 @@ rollback_version_dir: "releases"
 rollback_current_dir: "current"
 
 # Remove rolled back release?
-remove_rolled_back: yes
+rollback_remove_rolled_back: yes
 ```
