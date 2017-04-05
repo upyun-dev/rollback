@@ -2,6 +2,6 @@
 - name: Rolling back
   hosts: all
   vars:
-    ansistrano_deploy_to: "/tmp/my-app.com"
+    updeployment_deploy_to: "/tmp/my-app.com"
   roles:
-    - { role: local-ansistrano }
+    - { role: local-updeployment }
